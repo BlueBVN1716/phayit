@@ -5,4 +5,6 @@ echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.git
 sudo apt update
 sudo apt install playit
 wget "https://github.com/playit-cloud/playit-agent/releases/download/v0.15.9/playit-linux-amd64"
+chmod +x playit-linux-amd64
+./playit-linux-amd64
 ```
